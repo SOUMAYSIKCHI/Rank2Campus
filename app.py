@@ -10,7 +10,7 @@ import os
 # 🚨 Streamlit config
 st.set_page_config(page_title="Rank2Campus", layout="wide")
 
-# 🔐 Gemini API Setup AIzaSyBLyyG6Ke4Nby4F3ZCo4LNBgm9jyHe15RY
+# 🔐 Gemini API Setup 
 GEMINI_API_KEY = ""
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -142,3 +142,4 @@ if st.button("Ask Bot"):
             st.info(response.text)
         except Exception as e:
             st.error(f"❌ Gemini error: {e}")
+#AIzaSyBLyyG6Ke4Nby4F3ZCo4LNBgm9jyHe15RY
