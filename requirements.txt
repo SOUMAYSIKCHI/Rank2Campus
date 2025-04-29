@@ -4,4 +4,5 @@ numpy
 joblib
 plotly
 google-generativeai
+scikit-learn
 
